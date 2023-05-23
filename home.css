@@ -1,0 +1,83 @@
+@font-face
+{
+	font-family: "Platformregular";
+	src: url("FONT/Platform-Regular.otf");
+}
+
+@font-face
+{
+	font-family: "Platformlight";
+	src: url("FONT/Platform-Light.otf");
+}
+@font-face
+{
+	font-family: "Platformmedium";
+	src: url("FONT/Platform-Medium.otf");
+}
+
+body
+{
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+.Bloc-onecontainer{
+margin-top: 2vw;
+margin-left: 2vw;
+margin-right: 2vw;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+
+}
+
+.img-one-bloc-one{
+  width: 12vw;
+  height:12vh;
+}
+.logo{
+  background: url("LOGO/primary-logo-noir.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.center-content{
+    margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center-content h1{
+    font-family: Platformregular;
+    font-size: 90px;
+
+}
+
+.center-content p{
+    font-family: Platformlight;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+
+.center-content a{
+    background-color: #ffffff;
+    border: solid 1px;
+    margin-top: 60px;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
